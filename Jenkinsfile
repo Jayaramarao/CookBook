@@ -3,7 +3,7 @@ pipeline {
     stages { 
         stage('check out') {
             steps {
-                git branch: 'develop', url: 'https://github.com/Jayaramarao/CookBook.git'
+                git branch: '', url: 'https://github.com/Jayaramarao/CookBook.git'
             }
         }
     }
